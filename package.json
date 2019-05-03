@@ -1,6 +1,6 @@
 {
   "name": "@rahlir/theme-gruvbox",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gruvbox dark theme for Jupyter Lab",
   "keywords": [
     "jupyter",

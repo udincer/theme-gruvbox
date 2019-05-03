@@ -7,17 +7,17 @@ import {
 } from '@jupyterlab/apputils';
 
 /**
- * A plugin for the Telamonian Darcula
+ * A plugin for the Rahlir Gruvbox
  */
 const plugin: JupyterLabPlugin<void> = {
-  id: '@telamonian/theme-darcula:plugin',
+  id: '@rahlir/theme-gruvboc:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterLab, manager: IThemeManager) {
     manager.register({
-      name: 'Telamonian Darcula',
+      name: 'Rahlir Gruvbox',
       isLight: false,
       load: function() {
-        return manager.loadCSS('@telamonian/theme-darcula/index.css');
+        return manager.loadCSS('@rahlir/theme-gruvbox/index.css');
       },
       unload: function() {
         return Promise.resolve(void 0);

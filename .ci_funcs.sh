@@ -26,7 +26,7 @@ ci_script() {
 
     # enable the theme in user-settings
     mkdir -p $(dirname $THEME_SETTINGS)
-    printf "%s\n" "{" "    \"theme\": \"theme-darcula\"" "}" > $THEME_SETTINGS
+    printf "%s\n" "{" "    \"theme\": \"theme-gruvbox\"" "}" > $THEME_SETTINGS
 
     # print out a confirmation that the extension is installed
     jupyter labextension list
