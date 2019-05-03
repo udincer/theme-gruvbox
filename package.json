@@ -1,21 +1,21 @@
 {
-  "name": "@telamonian/theme-darcula",
-  "version": "0.20.1",
-  "description": "Darcula theme for Jupyterlab. Modelled after the classic Intellij theme.",
+  "name": "@rahlir/theme-gruvbox",
+  "version": "0.1.0",
+  "description": "Gruvbox dark theme for Jupyter Lab",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension",
     "jupyterlab-theme",
-    "darcula",
-    "darcula-theme"
+    "gruvbox",
+    "gruvbox-theme"
   ],
-  "homepage": "https://github.com/telamonian/theme-darcula",
+  "homepage": "https://github.com/Rahlir/theme-gruvbox",
   "bugs": {
-    "url": "https://github.com/telamonian/theme-darcula/issues"
+    "url": "https://github.com/Rahlir/theme-gruvbox/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Max Klein",
+  "author": "Tadeas Uhlir",
   "files": [
     "lib/*.d.ts",
     "lib/*.js.map",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/telamonian/theme-darcula.git"
+    "url": "https://github.com/Rahlir/theme-gruvbox.git"
   },
   "scripts": {
     "build": "tsc -b",

@@ -1,8 +1,8 @@
-# @telamonian/theme-darcula
+# @Rahlir/theme-gruvbox
 
-[![Build Status](https://travis-ci.org/telamonian/theme-darcula.svg?branch=master)](https://travis-ci.org/telamonian/theme-darcula)
+[![Build Status](https://travis-ci.org/Rahlir/theme-gruvbox.svg?branch=master)](https://travis-ci.org/Rahlir/theme-gruvbox)
 
-Darcula theme for Jupyterlab. Modelled after the classic Intellij theme. **Update**: dark scrollbars have been added.
+Gruvbox dark theme for Jupyter Lab. Modelled on classic gruvbox color pallette and gruvbox theme from [jupyter-themes](https://github.com/dunovank/jupyter-themes).
 
 ![darcula_preview](darcula_preview.png)
 
@@ -15,12 +15,12 @@ Darcula theme for Jupyterlab. Modelled after the classic Intellij theme. **Updat
 #### Command line install
 
 ```bash
-jupyter labextension install @telamonian/theme-darcula
+jupyter labextension install @rahlir/theme-gruvbox
 ```
 
 #### GUI install
 
-Alternatively, you can install the darcula theme using JupyterLab's new Extension Manager GUI, if you have it enabled. Just open the Extension Manager, enter `@telamonian/theme-darcula` in the search bar, and then follow the prompts to install.
+Alternatively, you can install the darcula theme using JupyterLab's new Extension Manager GUI, if you have it enabled. Just open the Extension Manager, enter `@rahlir/theme-gruvbox` in the search bar, and then follow the prompts to install.
 
 You can find instructions for [enabling the Extension Manager here](https://github.com/jupyterlab/jupyterlab/blob/master/docs/source/user/extensions.rst#using-the-extension-manager). The Manager was only recently added, so you'll need to have a new enough version of JupyterLab (one that was released sometime after 07.2018).
 
