@@ -1,4 +1,4 @@
-# @Rahlir/theme-gruvbox
+# Gruvbox Theme for Jupyter Lab
 
 [![Build Status](https://travis-ci.org/Rahlir/theme-gruvbox.svg?branch=master)](https://travis-ci.org/Rahlir/theme-gruvbox)
 
