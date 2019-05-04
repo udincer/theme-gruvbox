@@ -13,7 +13,7 @@ Gruvbox dark theme for Jupyter Lab. Modeled on classic gruvbox color palette and
 
 ## Installation
 
-You do not need to clone this repository to install this theme. It is hosted on npm public registry. Clone only if you want to contribute to [development](#development).
+You do not need to clone this repository to install the theme. It is hosted on npm public registry. Clone only if you want to contribute to [development](#development).
 
 #### Command line install
 
