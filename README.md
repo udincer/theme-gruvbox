@@ -2,13 +2,14 @@
 
 [![Build Status](https://travis-ci.org/Rahlir/theme-gruvbox.svg?branch=master)](https://travis-ci.org/Rahlir/theme-gruvbox)
 
-Gruvbox dark theme for Jupyter Lab. Modelled on classic gruvbox color pallette and gruvbox theme from [jupyter-themes](https://github.com/dunovank/jupyter-themes).
+Gruvbox dark theme for Jupyter Lab. Modeled on classic gruvbox color palette and gruvbox theme from [jupyter-themes](https://github.com/dunovank/jupyter-themes).
 
 ![gruvbox_preview](gruvbox_preview.png)
 
 ## Prerequisites
 
-* JupyterLab
+* Jupyter Lab
+* node package manager (npm)
 
 ## Installation
 
@@ -20,9 +21,12 @@ jupyter labextension install @rahlir/theme-gruvbox
 
 #### GUI install
 
-Alternatively, you can install the darcula theme using JupyterLab's new Extension Manager GUI, if you have it enabled. Just open the Extension Manager, enter `@rahlir/theme-gruvbox` in the search bar, and then follow the prompts to install.
+Alternatively, you can install the gruvbox theme using JupyterLab's new Extension Manager GUI, if you have it enabled. Just open the Extension Manager, enter `@rahlir/theme-gruvbox` in the search bar, and then follow the prompts to install.
 
-You can find instructions for [enabling the Extension Manager here](https://github.com/jupyterlab/jupyterlab/blob/master/docs/source/user/extensions.rst#using-the-extension-manager). The Manager was only recently added, so you'll need to have a new enough version of JupyterLab (one that was released sometime after 07.2018).
+You can find instructions for [enabling the Extension Manager
+here](https://github.com/jupyterlab/jupyterlab/blob/master/docs/source/user/extensions.rst#using-the-extension-manager).
+The Manager was only recently added, so you'll need to have a new enough
+version of JupyterLab (version 0.35.0 and above should have it for sure).
 
 ## Scrollbars
 
@@ -42,6 +46,6 @@ jupyter labextension link .
 To rebuild the package and the JupyterLab app:
 
 ```bash
-npm run build
+npm run clean && npm run build
 jupyter lab build
 ```
