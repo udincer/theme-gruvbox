@@ -30,6 +30,14 @@ here](https://github.com/jupyterlab/jupyterlab/blob/master/docs/source/user/exte
 The Manager was only recently added, so you'll need to have a new enough
 version of JupyterLab (version 0.35.0 and above should have it for sure).
 
+#### Keep up to date
+
+Note that this is still work in progress. Hence there might be bunch of updates coming out soon. To update the extension, run
+
+```bash
+jupyter labextension update @rahlir/theme-gruvbox
+```
+
 ## Scrollbars
 
 This is the first JupyterLab extension (that I know of) that styles dark scrollbars correctly on most browsers. With the latest release of Firefox (65), all of the major browsers except for one now support at least some styling of the native scrollbars. The only one left out at this point is Edge. If you're using Edge this theme will still work, but it won't give you the nice dark scrollbars.
