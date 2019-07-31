@@ -1,5 +1,5 @@
 import {
-  JupyterLab, JupyterLabPlugin
+  JupyterFrontEnd, JupyterFrontEndPlugin
 } from '@jupyterlab/application';
 
 import {
@@ -9,10 +9,10 @@ import {
 /**
  * A plugin for the Rahlir Gruvbox
  */
-const plugin: JupyterLabPlugin<void> = {
+const plugin: JupyterFrontEndPlugin<void> = {
   id: '@rahlir/theme-gruvboc:plugin',
   requires: [IThemeManager],
-  activate: function(app: JupyterLab, manager: IThemeManager) {
+  activate: function(app: JupyterFrontEnd, manager: IThemeManager) {
     manager.register({
       name: 'Rahlir Gruvbox',
       isLight: false,
