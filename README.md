@@ -8,7 +8,7 @@ Gruvbox dark theme for Jupyter Lab. Modeled on classic gruvbox color palette and
 
 ## Prerequisites
 
-* Jupyter Lab
+* Jupyter Lab version >= 1.0
 * node package manager (npm)
 
 ## Installation
