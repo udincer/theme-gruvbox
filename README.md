@@ -4,6 +4,8 @@
 
 Gruvbox dark theme for Jupyter Lab. Modeled on classic gruvbox color palette and gruvbox theme from [jupyter-themes](https://github.com/dunovank/jupyter-themes).
 
+**Now compatible with JupyterLab 1.0!**
+
 ![gruvbox_preview](gruvbox_preview.png)
 
 ## Prerequisites
