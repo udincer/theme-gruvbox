@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/Rahlir/theme-gruvbox.svg?branch=master)](https://travis-ci.org/Rahlir/theme-gruvbox)
 
 Gruvbox dark theme for Jupyter Lab. Modeled on classic gruvbox color palette and gruvbox theme from [jupyter-themes](https://github.com/dunovank/jupyter-themes).
+Structure of this package is based on [theme-dracula](https://github.com/telamonian/theme-darcula) as this theme was developed from a fork of that repository.
 
 **Now compatible with JupyterLab 1.0!**
 
@@ -42,9 +43,16 @@ jupyter labextension update @rahlir/theme-gruvbox
 
 ## Scrollbars
 
-This is the first JupyterLab extension (that I know of) that styles dark scrollbars correctly on most browsers. With the latest release of Firefox (65), all of the major browsers except for one now support at least some styling of the native scrollbars. The only one left out at this point is Edge. If you're using Edge this theme will still work, but it won't give you the nice dark scrollbars.
+Just as [theme-dracula](https://github.com/telamonian/theme-darcula), this extension
+styles dark scrollbars on most web browsers.
 
-See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) and [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars) for more info.
+From their [readme](https://github.com/telamonian/theme-darcula#scrollbars):
+> With the latest release of Firefox (65), all of the major browsers except for one
+now support at least some styling of the native scrollbars. The only one left out at
+this point is Edge. If you're using Edge this theme will still work, but it won't give
+you the nice dark scrollbars.
+
+> See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) and [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars) for more info.
 
 ## Development
 
