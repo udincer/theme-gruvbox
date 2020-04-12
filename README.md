@@ -51,7 +51,7 @@ From their [readme](https://github.com/telamonian/theme-darcula#scrollbars):
 now support at least some styling of the native scrollbars. The only one left out at
 this point is Edge. If you're using Edge this theme will still work, but it won't give
 you the nice dark scrollbars.
-
+>
 > See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar) and [here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars) for more info.
 
 ## Development
